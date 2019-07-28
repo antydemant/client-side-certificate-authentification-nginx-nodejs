@@ -82,3 +82,10 @@ typings/
 # next.js build output
 .next
 
+# Certificates, lol
+*.crt
+*.pem
+*.key
+*.csr
+*.srl
+*.p12

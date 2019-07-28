@@ -1,0 +1,11 @@
+version: "2"
+services:
+  ngnix_1:
+    build: .
+    ports:
+    - "443:443"
+    - "80:80"
+    links:
+      - backend
+  backend:
+    image: backend
